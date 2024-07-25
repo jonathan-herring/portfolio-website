@@ -1,7 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/ri";
-import { SiMongodb } from "react-icons/ri";
-import { SiPython } from "react-icons/ri";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiMongodb } from "react-icons/si";
+import { SiJest } from "react-icons/si";
 
 const Technologies = () => {
   return (
@@ -12,13 +12,13 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400"/>
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <TbBrandNextjs className="text-7xl text-cyan-400"/>
+          <TbBrandNextjs className="text-7xl"/>
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <SiMongodb className="text-7xl text-cyan-400"/>
+          <SiMongodb className="text-7xl text-green-500"/>
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
-          <SiPython className="text-7xl text-cyan-400"/>
+          <SiJest className="text-7xl text-jest"/>
         </div>
       </div>
     </div>
