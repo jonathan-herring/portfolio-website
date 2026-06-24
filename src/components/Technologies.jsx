@@ -1,6 +1,10 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { SiVuedotjs } from "react-icons/si";
+import { SiDocker } from "react-icons/si";
+import { SiFirebase } from "react-icons/si";
+import { SiKotlin } from "react-icons/si";
+import { SiGo } from "react-icons/si";
 import { SiJest } from "react-icons/si";
 import { motion } from "framer-motion";
 
@@ -43,12 +47,28 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400"/>
         </motion.div>
         <motion.div 
+          variants={iconVariants(3)}
+          initial="initial"
+          animate="animate" 
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-500"/>
+        </motion.div>
+        <motion.div 
           variants={iconVariants(4)}
           initial="initial"
           animate="animate" 
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl"/>
+          <SiVuedotjs className="text-7xl text-green-500"/>
+        </motion.div>
+        <motion.div 
+          variants={iconVariants(2)}
+          initial="initial"
+          animate="animate" 
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiKotlin className="text-7xl text-purple-500"/>
         </motion.div>
         <motion.div 
           variants={iconVariants(5)}
@@ -56,10 +76,26 @@ const Technologies = () => {
           animate="animate" 
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiMongodb className="text-7xl text-green-500"/>
+          <SiGo className="text-7xl text-sky-400"/>
         </motion.div>
         <motion.div 
-          variants={iconVariants(3)}
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate" 
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiDocker className="text-7xl text-blue-400"/>
+        </motion.div>
+        <motion.div 
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate" 
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiFirebase className="text-7xl text-yellow-500"/>
+        </motion.div>
+        <motion.div 
+          variants={iconVariants(2.8)}
           initial="initial"
           animate="animate" 
           className="rounded-2xl border-4 border-neutral-800 p-4"
