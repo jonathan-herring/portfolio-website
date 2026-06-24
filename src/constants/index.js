@@ -1,76 +1,53 @@
-import project1 from "../assets/projects/project-1.png";
-// import project2 from "../assets/projects/project-2.jpg";
-// import project3 from "../assets/projects/project-3.jpg";
-// import project4 from "../assets/projects/project-4.jpg";
-
-export const HERO_CONTENT = `I am an aspiring software engineer with a passion for developing scalable applications. By working on various projects, I have been honing my skills in front-end technologies like React and Next.js, as well as back-end technologies such as Node.js, MySQL, PostgreSQL, and MongoDB.`
-
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a software engineer and CS student at UC Santa Barbara with a passion for building scalable applications. I have hands-on experience developing streaming platforms, mobile apps, and full-stack web applications using technologies like Kotlin, Go, React, and TypeScript.`
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "Software Engineering Fellow",
-    company: "Headstarter AI",
-    description: `Led a team in developing web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "June 2025 – May 2026",
+    role: "Client Developer Intern",
+    company: "TV2 Consulting",
+    location: "Remote",
+    description: `Developed features for a Go-based media packager utilizing REST APIs and Docker for deployments. Implemented a vendor-agnostic 2FA module and an audit log with diff-checking for config changes. Established Azure CI/CD pipelines to deploy backend services and custom monitoring tools for system health. Developed streaming apps across Android, Fire TV, and Roku platforms using Kotlin and Jetpack Compose.`,
+    technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs"],
   },
-  // {
-  //   year: "2022 - 2023",
-  //   role: "Frontend Developer",
-  //   company: "Adobe",
-  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  // },
-  // {
-  //   year: "2021 - 2022",
-  //   role: "Full Stack Developer",
-  //   company: "Facebook",
-  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  // },
-  // {
-  //   year: "2020 - 2021",
-  //   role: "Software Engineer",
-  //   company: "Paypal",
-  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  // },
+  {
+    year: "August – December 2024",
+    role: "Frontend/Mobile Developer Intern",
+    company: "SkyIT Services",
+    location: "Remote",
+    description: `Built reusable React components for fleet management software, improving code scalability and maintainability. Transformed legacy React web apps into responsive, mobile-first interfaces with minimal prior documentation. Diagnosed and resolved critical bugs in a Kotlin-based Android mobile application to improve user experience. Delivered production-ready code in Agile sprints using a Kanban-style system with daily standups.`,
+    technologies: ["React", "Kotlin", "TypeScript", "Agile"],
+  },
+  {
+    year: "May 2023 – June 2026",
+    role: "Desktop Support Technician",
+    company: "UCSB Life Sciences Computing Group",
+    location: "Santa Barbara, CA",
+    description: `Coordinated network and security configurations for university devices in collaboration with management. Provided rapid-response technical support and root-cause analysis for 50+ urgent network and storage tickets. Delivered bespoke hardware and software architectural consultations to university faculty and students.`,
+    technologies: ["Active Directory", "Jamf", "IBM MaaS360", "Zendesk"],
+  },
 ];
 
 export const PROJECTS = [
   {
-    title: "C++ Arcade Game",
-    image: project1,
+    title: "Lootfinder Web Application",
     description:
-      "A lightweight round-based zombie survival game.",
-    technologies: ["C++", "OpenGL", "Glut"],
+      "A map-based marketplace where users can buy and sell items. Led development as Scrum Leader, designed key frontend components, established testing infrastructure with Vitest, and built full-stack messaging functionality.",
+    technologies: ["Vue", "TypeScript", "Firebase", "Vitest"],
   },
-//   {
-//     title: "Task Management App",
-//     image: project2,
-//     description:
-//       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-//     technologies: ["HTML", "CSS", "Angular", "Firebase"],
-//   },
-//   {
-//     title: "Portfolio Website",
-//     image: project3,
-//     description:
-//       "A personal portfolio website showcasing projects, skills, and contact information.",
-//     technologies: ["HTML", "CSS", "React", "Bootstrap"],
-//   },
-//   {
-//     title: "Blogging Platform",
-//     image: project4,
-//     description:
-//       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-//     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-//   },
+  {
+    title: "Homelette Mobile App",
+    description:
+      "A mobile app connecting subletters with subtenants. Designed and implemented frontend components, reworked user flows, and shipped two functional downloadable versions using Agile development methods.",
+    technologies: ["React Native", "Expo", "TypeScript", "Firebase"],
+  },
+  {
+    title: "UCSB Course Search App",
+    description:
+      "An open-source app facilitating the course search and enrollment process. Implemented new React components, wrote comprehensive unit tests with Jest achieving 100% code coverage, and served as Scrum Master.",
+    technologies: ["JavaScript", "React", "HTML/CSS", "Jest", "Swagger"],
+  },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
   email: "jonathanherring2@gmail.com",
 };
