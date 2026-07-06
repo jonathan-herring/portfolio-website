@@ -9,6 +9,9 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={logo} alt="Jh logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a href="/cv.html" className="text-base font-medium text-green-300 hover:underline" aria-label="Curriculum Vitae">
+          CV
+        </a>
         <a href="https://www.linkedin.com/in/jonathan-herring-52945220b/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
           <FaLinkedin />
         </a>

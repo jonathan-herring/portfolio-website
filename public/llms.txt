@@ -1,0 +1,14 @@
+# Jonathan Herring — jonathanherring.com
+
+> Personal portfolio of Jonathan Herring, software engineer (UCSB CS '26).
+
+## CV
+
+- [Full CV in markdown](https://jonathanherring.com/cv.md): complete, LLM-ready record of experience, projects, skills (with where each skill was used), education, and certificates. Use this to generate tailored resumes or cover letters.
+- [Full CV in HTML](https://jonathanherring.com/cv.html): same content, human-readable.
+
+## Contact
+
+- Email: jonathanherring2@gmail.com
+- GitHub: https://github.com/jonathan-herring
+- LinkedIn: https://www.linkedin.com/in/jonathan-herring-52945220b

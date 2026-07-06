@@ -1,4 +1,4 @@
-export const HERO_CONTENT = `I am a software engineer and CS student at UC Santa Barbara with a passion for building scalable applications. I have hands-on experience developing streaming platforms, mobile apps, and full-stack web applications using technologies like Kotlin, Go, React, and TypeScript.`
+export const HERO_CONTENT = `I'm a software engineer with a B.S. in Computer Science from UC Santa Barbara (June 2026). Over the past year at TV2 Consulting I built streaming apps for Android, Fire TV, and Roku, backend features in Go, and Azure CI/CD infrastructure. Before that I shipped production frontend and mobile work at SkyIT Services. I build across the stack — Go, Kotlin, TypeScript, React, Next.js — and I like building things that actually get used.`;
 
 export const EXPERIENCES = [
   {
@@ -6,8 +6,8 @@ export const EXPERIENCES = [
     role: "Client Developer Intern",
     company: "TV2 Consulting",
     location: "Remote",
-    description: `Developed features for a Go-based media packager utilizing REST APIs and Docker for deployments. Implemented a vendor-agnostic 2FA module and an audit log with diff-checking for config changes. Established Azure CI/CD pipelines to deploy backend services and custom monitoring tools for system health. Developed streaming apps across Android, Fire TV, and Roku platforms using Kotlin and Jetpack Compose.`,
-    technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs"],
+    description: `Client development: built features for a Go-based media packager using REST APIs and Docker, implemented a vendor-agnostic 2FA module and an audit log with diff-checking for config changes, and developed streaming apps across Android, Fire TV, and Roku using Kotlin and Jetpack Compose. IT & infrastructure: established Azure CI/CD pipelines to deploy backend services, built custom monitoring tools for system health, handled on-call rotations for enterprise clients via Zendesk, and managed permissions and access control with Active Directory.`,
+    technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs", "Zendesk", "Active Directory"],
   },
   {
     year: "August – December 2024",
@@ -22,29 +22,44 @@ export const EXPERIENCES = [
     role: "Desktop Support Technician",
     company: "UCSB Life Sciences Computing Group",
     location: "Santa Barbara, CA",
-    description: `Coordinated network and security configurations for university devices in collaboration with management. Provided rapid-response technical support and root-cause analysis for 50+ urgent network and storage tickets. Delivered bespoke hardware and software architectural consultations to university faculty and students.`,
-    technologies: ["Active Directory", "Jamf", "IBM MaaS360", "Zendesk"],
+    description: `Troubleshot hardware, network, and communication issues across Windows, macOS, and Linux environments. Managed user identities, permissions, and security configurations via Active Directory. Administered university device fleets using Jamf Pro (macOS) and IBM MaaS360 (Windows). Provided rapid root-cause analysis for 50+ urgent tickets, including file corruption and network outages, and delivered hardware and software consultations to faculty and students.`,
+    technologies: ["Active Directory", "Jamf Pro", "IBM MaaS360", "Zendesk", "Linux"],
   },
 ];
 
 export const PROJECTS = [
   {
+    title: "Wend Archive",
+    description:
+      "A browser archive of past LinkedIn Wend puzzles with a full game engine, calendar, and completion tracking. Static-first Next.js architecture served from a CDN with no database, Zod-validated puzzle schemas, Vitest-tested game logic, and a Playwright scraper that runs on a daily GitHub Actions schedule to validate and auto-commit new puzzles.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Zod", "Vitest", "Playwright", "GitHub Actions"],
+  },
+  {
+    title: "Keystone Consults Website",
+    description:
+      "Production marketing site built for a real consulting business run by former CDSS licensing officials. Single-page, conversion-focused design with a serverless contact endpoint (Resend with mailto fallback), JSON-LD structured data, sitemap/robots generation, and a design-token CSS system.",
+    technologies: ["Next.js 15", "React 19", "TypeScript", "Resend", "SEO"],
+  },
+  {
     title: "Lootfinder Web Application",
     description:
-      "A map-based marketplace where users can buy and sell items. Led development as Scrum Leader, designed key frontend components, established testing infrastructure with Vitest, and built full-stack messaging functionality.",
+      "A map-based marketplace where users can buy and sell items. Led development as Scrum Leader, designed key frontend components, architected Firebase realtime database schemas and auth flows, established testing infrastructure with Vitest, and built full-stack messaging between buyers and sellers.",
     technologies: ["Vue", "TypeScript", "Firebase", "Vitest"],
+    github: "https://github.com/ucsb-cs148-w25/pj14-lootfinder",
   },
   {
     title: "Homelette Mobile App",
     description:
-      "A mobile app connecting subletters with subtenants. Designed and implemented frontend components, reworked user flows, and shipped two functional downloadable versions using Agile development methods.",
+      "A mobile app connecting subletters with subtenants. Designed and implemented frontend components, integrated the Firebase backend, managed build and deployment pipelines, and shipped two functional downloadable versions using Agile development methods.",
     technologies: ["React Native", "Expo", "TypeScript", "Firebase"],
+    github: "https://github.com/ucsb-cs184-f24/team14sublet",
   },
   {
     title: "UCSB Course Search App",
     description:
-      "An open-source app facilitating the course search and enrollment process. Implemented new React components, wrote comprehensive unit tests with Jest achieving 100% code coverage, and served as Scrum Master.",
-    technologies: ["JavaScript", "React", "HTML/CSS", "Jest", "Swagger"],
+      "An open-source app facilitating the course search and enrollment process. Implemented new React components, integrated RESTful APIs via Swagger, wrote unit tests with Jest achieving 100% code coverage with Stryker mutation testing, and served as Scrum Master.",
+    technologies: ["JavaScript", "React", "Jest", "Stryker", "Swagger"],
+    github: "https://github.com/ucsb-cs156-w24/proj-courses-w24-5pm-2",
   },
 ];
 
