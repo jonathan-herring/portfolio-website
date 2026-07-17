@@ -6,15 +6,15 @@ export const EXPERIENCES = [
     role: "Client Developer Intern",
     company: "TV2 Consulting",
     location: "Remote",
-    description: `Client development: built features for a Go-based media packager using REST APIs and Docker, implemented a vendor-agnostic 2FA module and an audit log with diff-checking for config changes, and developed streaming apps across Android, Fire TV, and Roku using Kotlin and Jetpack Compose. IT & infrastructure: established Azure CI/CD pipelines to deploy backend services, built custom monitoring tools for system health, handled on-call rotations for enterprise clients via Zendesk, and managed permissions and access control with Active Directory.`,
-    technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs", "Zendesk", "Active Directory"],
+    description: `Client development: built features for a Go-based media packager using REST APIs and Docker (configured and run through a WSL instance on Windows), wrote unit and integration tests for packager and streaming app features, implemented a vendor-agnostic 2FA module and an audit log with diff-checking for config changes, and developed streaming apps across Android, Fire TV, and Roku using Kotlin and Jetpack Compose. IT & infrastructure: established Azure CI/CD pipelines to deploy backend services, used Grafana, Prometheus, and Kibana to investigate client-reported issues and monitor system health, handled on-call rotations for enterprise clients via Zendesk, and managed permissions and access control with Active Directory. Worked in an Agile process with daily standups, sprints, and retrospectives.`,
+    technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs", "Zendesk", "Active Directory", "Grafana", "Prometheus", "Kibana", "Agile"],
   },
   {
     year: "August – December 2024",
     role: "Frontend/Mobile Developer Intern",
     company: "SkyIT Services",
     location: "Remote",
-    description: `Built reusable React components for fleet management software, improving code scalability and maintainability. Transformed legacy React web apps into responsive, mobile-first interfaces with minimal prior documentation. Diagnosed and resolved critical bugs in a Kotlin-based Android mobile application to improve user experience. Delivered production-ready code in Agile sprints using a Kanban-style system with daily standups.`,
+    description: `Built reusable React components for fleet management software, improving code scalability and maintainability. Transformed legacy React web apps into responsive, mobile-first interfaces with minimal prior documentation. Diagnosed and resolved critical bugs in a Kotlin-based Android mobile application to improve user experience. Delivered production-ready code in Agile sprints using a Kanban-style system with daily standups and retrospectives.`,
     technologies: ["React", "Kotlin", "TypeScript", "Agile"],
   },
   {
@@ -41,21 +41,21 @@ export const PROJECTS = [
     technologies: ["Next.js 15", "React 19", "TypeScript", "Resend", "SEO"],
   },
   {
-    title: "Lootfinder Web Application",
+    title: "Lootfinder Web Application (CMPSC 148)",
     description:
       "A map-based marketplace where users can buy and sell items. Led development as Scrum Leader, designed key frontend components, architected Firebase realtime database schemas and auth flows, established testing infrastructure with Vitest, and built full-stack messaging between buyers and sellers.",
     technologies: ["Vue", "TypeScript", "Firebase", "Vitest"],
     github: "https://github.com/ucsb-cs148-w25/pj14-lootfinder",
   },
   {
-    title: "Homelette Mobile App",
+    title: "Homelette Mobile App (CMPSC 184)",
     description:
-      "A mobile app connecting subletters with subtenants. Designed and implemented frontend components, integrated the Firebase backend, managed build and deployment pipelines, and shipped two functional downloadable versions using Agile development methods.",
+      "A mobile app connecting subletters with subtenants. Designed and implemented frontend components, wrote unit and integration tests for critical user flows, integrated the Firebase backend, managed build and deployment pipelines, and shipped two functional downloadable versions using Agile development methods.",
     technologies: ["React Native", "Expo", "TypeScript", "Firebase"],
     github: "https://github.com/ucsb-cs184-f24/team14sublet",
   },
   {
-    title: "UCSB Course Search App",
+    title: "UCSB Course Search App (CMPSC 156)",
     description:
       "An open-source app facilitating the course search and enrollment process. Implemented new React components, integrated RESTful APIs via Swagger, wrote unit tests with Jest achieving 100% code coverage with Stryker mutation testing, and served as Scrum Master.",
     technologies: ["JavaScript", "React", "Jest", "Stryker", "Swagger"],

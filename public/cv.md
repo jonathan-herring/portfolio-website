@@ -32,7 +32,7 @@ troubleshooting) uncommon among new grads.
   Architecture, Computer Organization, Computer Communication Networks, Automata & Formal
   Languages, Object-Oriented Design, Artificial Intelligence, Intro to Computer Vision, Intro to
   Deep Learning, Recommender Systems & Web Mining, Machine Learning for Music, Mobile App
-  Development, Advanced Applications Programming, Human-Computer Interaction, Software
+  Development (CMPSC 184), Advanced Applications Programming, Human-Computer Interaction, Software
   Engineering Project (CMPSC 148), Special Topics: Blockchain (CMPSC 190N), Intermediate Python
 
 ## Work History
@@ -44,6 +44,8 @@ The role spanned two tracks: client-facing software development and IT/infrastru
 Client development:
 
 - Developed features for a Go-based media packager, utilizing REST APIs and Docker for deployments
+  (configured and run through a WSL instance on a Windows machine)
+- Wrote unit and integration tests for packager and streaming app features
 - Implemented a vendor-agnostic 2FA module and an audit log with diff-checking for config changes
 - Developed streaming apps across Android, Fire TV, and Roku platforms using Kotlin and Jetpack
   Compose (OTT/IPTV domain)
@@ -51,13 +53,16 @@ Client development:
 IT & infrastructure:
 
 - Established Azure CI/CD pipelines to deploy backend services
-- Deployed custom monitoring tools via Azure pipelines to track system health and backend performance
+- Investigated client-reported issues and monitored system health using Grafana, Prometheus, and
+  Kibana
 - Managed on-call rotations via Zendesk, resolving enterprise client tickets to ensure high system
   availability
 - Managed user permissions and access control policies across the organization using Active Directory
+- Worked in an Agile process with daily standups, sprints, and retrospectives
 
-Skills used: Go, Kotlin, Jetpack Compose, REST APIs, Docker, Microsoft Azure (CI/CD), OTT/IPTV,
-2FA/MFA & IAM, audit logging, Zendesk, Active Directory, monitoring/observability.
+Skills used: Go, Kotlin, Jetpack Compose, REST APIs, Docker, WSL, Microsoft Azure (CI/CD), OTT/IPTV,
+2FA/MFA & IAM, audit logging, Zendesk, Active Directory, Grafana, Prometheus, Kibana, unit/integration
+testing, Agile (standups, sprints, retrospectives).
 
 ### Frontend/Mobile Developer Intern — SkyIT Services (Remote, August – December 2024)
 
@@ -68,8 +73,8 @@ Skills used: Go, Kotlin, Jetpack Compose, REST APIs, Docker, Microsoft Azure (CI
 - Diagnosed and resolved critical bugs in a Kotlin-based Android mobile application
 - Collaborated directly with senior engineers to troubleshoot existing software infrastructure and
   deployments
-- Delivered production-ready code in Agile sprints (Kanban, daily standups, weekly performance
-  meetings)
+- Delivered production-ready code in Agile sprints (Kanban, daily standups, retrospectives, weekly
+  performance meetings)
 - Received an Android Developer certificate and reference letters from SkyIT and GBCS Group
 
 Skills used: React, TypeScript, JavaScript, Kotlin, Android, responsive/mobile-first CSS,
@@ -123,7 +128,7 @@ consultation bookings.
 
 Skills demonstrated: client work, production deployment, serverless APIs, SEO, design systems.
 
-### Lootfinder Web Application (Jan – Mar 2025) — team project, Scrum Leader
+### Lootfinder Web Application (Jan – Mar 2025, CMPSC 148) — team project, Scrum Leader
 
 Map-based marketplace where users buy and sell items. Repo: https://github.com/ucsb-cs148-w25/pj14-lootfinder
 
@@ -135,18 +140,20 @@ Map-based marketplace where users buy and sell items. Repo: https://github.com/u
 
 Skills demonstrated: Vue, TypeScript, Firebase (auth + realtime DB), Vitest, Agile leadership.
 
-### Homelette Mobile App (Sep – Dec 2024) — team project
+### Homelette Mobile App (Sep – Dec 2024, CMPSC 184) — team project
 
 Mobile app connecting subletters with subtenants. Repo: https://github.com/ucsb-cs184-f24/team14sublet
 
-- Designed, implemented, and tested frontend components in React Native (Expo) + TypeScript
+- Designed, implemented, and wrote unit and integration tests for frontend components in React
+  Native (Expo) + TypeScript
 - Integrated Firebase backend for secure data storage, querying, and app state
 - Managed build and deployment pipelines; shipped two stable downloadable versions
 - Reworked user flows for UX improvements; led daily standups; authored technical documentation
 
-Skills demonstrated: React Native, Expo, TypeScript, Firebase, mobile release management, Agile.
+Skills demonstrated: React Native, Expo, TypeScript, Firebase, unit/integration testing, mobile
+release management, Agile.
 
-### UCSB Course Search App (Jan – Mar 2024) — open-source team project, Scrum Master
+### UCSB Course Search App (Jan – Mar 2024, CMPSC 156) — open-source team project, Scrum Master
 
 Open-source app facilitating UCSB course search and enrollment. Repo: https://github.com/ucsb-cs156-w24/proj-courses-w24-5pm-2
 
@@ -204,16 +211,17 @@ country collection, astronomy flashcards, and other React apps. Advent of Code 2
 | Solidity | Order book DEX (CMPSC 190N) |
 | HTML/CSS | All web projects; responsive mobile-first work at SkyIT |
 | Firebase | Lootfinder (auth, realtime DB), Homelette |
-| Docker | TV2 deployments |
+| Docker | TV2 deployments (config run via WSL on Windows) |
+| WSL | TV2 Docker configuration |
 | Microsoft Azure (CI/CD) | TV2 pipelines and monitoring deployment |
 | GitHub Actions | Wend Archive daily scraper workflow |
 | REST APIs | TV2 packager, Course Search (Swagger), Keystone contact endpoint |
-| Testing: Jest, Vitest, Stryker | Course Search (100% coverage + mutation testing), Lootfinder, Wend Archive |
+| Testing: Jest, Vitest, Stryker, unit/integration testing | TV2 (packager & streaming apps), Course Search (100% coverage + mutation testing), Lootfinder, Homelette, Wend Archive |
 | Playwright | Wend Archive scraper |
 | Tailwind CSS | Wend Archive, portfolio site |
 | Zod | Wend Archive schema validation |
 | LLM APIs | AI app sprint mini-projects (2024) |
-| Agile / Scrum leadership | Lootfinder (Scrum Leader), Course Search (Scrum Master), Homelette (led standups), SkyIT |
+| Agile / Scrum leadership (standups, sprints, retrospectives, Kanban) | TV2 Consulting, Lootfinder (Scrum Leader), Course Search (Scrum Master), Homelette (led standups), SkyIT |
 | Active Directory | TV2 access control, UCSB LSCG identity management |
 | Jamf Pro / IBM MaaS360 | UCSB LSCG device fleet administration |
 | Zendesk / ITSM | TV2 on-call rotations, UCSB LSCG ticketing |
@@ -221,6 +229,7 @@ country collection, astronomy flashcards, and other React apps. Advent of Code 2
 | Networking (TCP/IP, DNS, DHCP) | UCSB LSCG troubleshooting, networks coursework |
 | Security: 2FA/MFA, RBAC, IAM, audit logging | TV2 2FA module and audit log, LSCG security configs |
 | OTT/IPTV | TV2 streaming platform work |
+| Grafana / Prometheus / Kibana (observability) | TV2 client support — investigating client-reported issues and monitoring system health |
 
 ## Certificates
 
