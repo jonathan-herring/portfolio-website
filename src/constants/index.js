@@ -19,15 +19,15 @@ export const EXPERIENCES = [
       {
         heading: "IT & infrastructure",
         items: [
-          "Established Azure CI/CD pipelines to deploy backend services",
+          "Established Azure CI/CD pipelines to deploy backend services; used Azure DevOps for sprint planning, task tracking, and code reviews",
           "Used Grafana, Prometheus, and Kibana to investigate client-reported issues and monitor system health",
           "Handled on-call rotations for enterprise clients via Zendesk",
           "Managed permissions and access control with Active Directory",
-          "Worked in an Agile process with daily standups, sprints, and retrospectives",
+          "Participated in Agile process with daily standups, sprint planning, code reviews, and retrospectives; used Cursor to accelerate coding, debugging, and refactoring",
         ],
       },
     ],
-    technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs", "Zendesk", "Active Directory", "Grafana", "Prometheus", "Kibana", "Agile"],
+    technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs", "Zendesk", "Active Directory", "Grafana", "Prometheus", "Kibana", "Agile", "Azure DevOps", "Cursor"],
   },
   {
     year: "August – December 2024",

@@ -52,17 +52,19 @@ Client development:
 
 IT & infrastructure:
 
-- Established Azure CI/CD pipelines to deploy backend services
+- Established Azure CI/CD pipelines to deploy backend services; used Azure DevOps for sprint
+  planning, task tracking, and code reviews
 - Investigated client-reported issues and monitored system health using Grafana, Prometheus, and
   Kibana
 - Managed on-call rotations via Zendesk, resolving enterprise client tickets to ensure high system
   availability
 - Managed user permissions and access control policies across the organization using Active Directory
-- Worked in an Agile process with daily standups, sprints, and retrospectives
+- Participated in Agile process with daily standups, sprint planning, code reviews, and
+  retrospectives; used Cursor to accelerate coding, debugging, and refactoring
 
 Skills used: Go, Kotlin, Jetpack Compose, REST APIs, Docker, Microsoft Azure (CI/CD), OTT/IPTV,
 2FA/MFA & IAM, audit logging, Zendesk, Active Directory, Grafana, Prometheus, Kibana, unit/integration
-testing, Agile.
+testing, Agile, Azure DevOps, Cursor.
 
 ### Frontend/Mobile Developer Intern — SkyIT Services (Remote, August – December 2024)
 
@@ -213,6 +215,8 @@ country collection, astronomy flashcards, and other React apps. Advent of Code 2
 | Firebase | Lootfinder (auth, realtime DB), Homelette |
 | Docker | TV2 deployments (via WSL on Windows) |
 | Microsoft Azure (CI/CD) | TV2 pipelines and monitoring deployment |
+| Azure DevOps | TV2 sprint planning, task tracking, code reviews |
+| Cursor / AI-assisted dev | TV2 client & backend development |
 | GitHub Actions | Wend Archive daily scraper workflow |
 | REST APIs | TV2 packager, Course Search (Swagger), Keystone contact endpoint |
 | Testing: Jest, Vitest, Stryker | TV2 (packager & streaming apps), Course Search (100% coverage + mutation testing), Lootfinder, Homelette, Wend Archive |
