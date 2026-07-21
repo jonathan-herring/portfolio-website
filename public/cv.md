@@ -89,7 +89,7 @@ Agile/Scrum/Kanban.
 - Managed user identities, permissions, and security configurations via Active Directory for
   university staff
 - Administered university device fleets using Jamf Pro (macOS) and IBM MaaS360 (Windows)
-- Resolved 50+ hardware/software support tickets with clear technical documentation
+- Resolved 200+ hardware/software support tickets with clear technical documentation
 - Provided rapid root-cause analysis and remediation for critical events such as file corruption
   and network outages
 - Delivered bespoke hardware and software architectural consultations to faculty and students

@@ -57,7 +57,7 @@ export const EXPERIENCES = [
           "Troubleshot hardware, network, and communication issues across Windows, macOS, and Linux environments",
           "Managed user identities, permissions, and security configurations via Active Directory",
           "Administered university device fleets using Jamf Pro (macOS) and IBM MaaS360 (Windows)",
-          "Provided rapid root-cause analysis for 50+ urgent tickets, including file corruption and network outages, and delivered hardware and software consultations to faculty and students",
+          "Provided rapid root-cause analysis for 200+ urgent tickets, including file corruption and network outages, and delivered hardware and software consultations to faculty and students",
         ],
       },
     ],
