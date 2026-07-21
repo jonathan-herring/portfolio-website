@@ -47,7 +47,7 @@ export const EXPERIENCES = [
     technologies: ["React", "Kotlin", "TypeScript", "Agile"],
   },
   {
-    year: "May 2023 – June 2026",
+    year: "May 2023 – July 2026",
     role: "Desktop Support Technician",
     company: "UCSB Life Sciences Computing Group",
     location: "Santa Barbara, CA",

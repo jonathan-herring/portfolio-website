@@ -82,7 +82,7 @@ testing, Agile, Azure DevOps, Cursor.
 Skills used: React, TypeScript, JavaScript, Kotlin, Android, responsive/mobile-first CSS,
 Agile/Scrum/Kanban.
 
-### Desktop Support Technician — UCSB Life Sciences Computing Group (Santa Barbara, CA, May 2023 – June 2026)
+### Desktop Support Technician — UCSB Life Sciences Computing Group (Santa Barbara, CA, May 2023 – July 2026)
 
 - Troubleshot hardware, network, and communication issues across Windows, macOS, and Linux
   environments
