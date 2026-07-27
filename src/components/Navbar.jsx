@@ -12,6 +12,15 @@ const Navbar = () => {
         <a href="/cv.html" className="text-base font-medium text-green-300 hover:underline" aria-label="Curriculum Vitae">
           CV
         </a>
+        <a
+          href="https://drive.google.com/file/d/1gPNB5MrdfzOlmy41ozE5jwlYRVdAkDgU/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          className="text-base font-medium text-green-300 hover:underline"
+          aria-label="Resume"
+        >
+          Resume
+        </a>
         <a href="https://www.linkedin.com/in/jonathan-herring-52945220b/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
           <FaLinkedin />
         </a>
