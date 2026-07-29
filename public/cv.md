@@ -93,9 +93,17 @@ Agile/Scrum/Kanban.
 - Provided rapid root-cause analysis and remediation for critical events such as file corruption
   and network outages
 - Delivered bespoke hardware and software architectural consultations to faculty and students
+- Diagnosed application crashes and performance issues without obvious root causes using Windows
+  Event Logs
+- Imaged new Windows PCs at scale using FOG Project, an open-source network cloning tool
+- Evaluated the condition and resale/scrap value of e-waste, including monitors, storage drives,
+  and RAM
+- Identified recurring ticket-triage inefficiencies and built RT Triage Companion, a Chrome
+  extension for Request Tracker (see Projects)
 
 Skills used: Active Directory, Jamf Pro, IBM MaaS360, Zendesk/ITSM, Windows, macOS,
-Linux (Ubuntu/Debian), Bash, TCP/IP, DNS, DHCP, hardware diagnostics.
+Linux (Ubuntu/Debian), Bash, TCP/IP, DNS, DHCP, hardware diagnostics, Windows Event Viewer,
+FOG Project, Chrome Extensions (Manifest V3).
 
 ## Projects
 
@@ -129,6 +137,23 @@ consultation bookings.
 - Design-token CSS system and custom CSS-only logo mark
 
 Skills demonstrated: client work, production deployment, serverless APIs, SEO, design systems.
+
+### RT Triage Companion (2026) — solo project
+
+Chrome extension fixing unreliable "awaiting my reply" flags and surfacing unclaimed/stalled
+tickets in Request Tracker (RT), the helpdesk software used at UCSB LSCG. Repo:
+https://github.com/jonathan-herring/rt-triage-companion
+
+- Manifest V3 extension with a REST client auto-detecting and supporting both RT API versions
+- Classifies tickets into five categories (needs reply, already handled, lingering/unclaimed,
+  automated/vendor, likely spam) by analyzing correspondence history and clustering mail-merge
+  campaigns
+- Entirely in-browser processing — no backend, no ticket data transmitted off-device
+- Toolbar badge and popup UI surfacing genuine action items; in-page badges on RT's list views
+- Node.js test suite covering classification logic
+
+Skills demonstrated: Chrome extension development (Manifest V3), REST API integration, JavaScript,
+Node.js testing, workflow/process automation.
 
 ### Lootfinder Web Application (Jan – Mar 2025, CMPSC 148) — team project, Scrum Leader
 
@@ -229,6 +254,9 @@ country collection, astronomy flashcards, and other React apps. Advent of Code 2
 | Jamf Pro / IBM MaaS360 | UCSB LSCG device fleet administration |
 | Zendesk / ITSM | TV2 on-call rotations, UCSB LSCG ticketing |
 | Linux / Bash | UCSB LSCG support, personal tooling |
+| Windows Event Viewer / Event Logs | UCSB LSCG crash & performance troubleshooting |
+| FOG Project (imaging/deployment) | UCSB LSCG PC imaging |
+| Chrome Extensions (Manifest V3) | RT Triage Companion |
 | Networking (TCP/IP, DNS, DHCP) | UCSB LSCG troubleshooting, networks coursework |
 | Security: 2FA/MFA, RBAC, IAM, audit logging | TV2 2FA module and audit log, LSCG security configs |
 | OTT/IPTV | TV2 streaming platform work |

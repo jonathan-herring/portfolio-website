@@ -58,10 +58,14 @@ export const EXPERIENCES = [
           "Managed user identities, permissions, and security configurations via Active Directory",
           "Administered university device fleets using Jamf Pro (macOS) and IBM MaaS360 (Windows)",
           "Provided rapid root-cause analysis for 200+ urgent tickets, including file corruption and network outages, and delivered hardware and software consultations to faculty and students",
+          "Investigated application crashes and slow performance without obvious root causes using Windows Event Logs",
+          "Imaged new Windows PCs at scale using FOG Project, an open-source network cloning tool",
+          "Evaluated the condition and resale/scrap value of e-waste, including monitors, storage drives, and RAM",
+          "Identified recurring ticket-triage inefficiencies and built RT Triage Companion, a Chrome extension for Request Tracker (see Projects)",
         ],
       },
     ],
-    technologies: ["Active Directory", "Jamf Pro", "IBM MaaS360", "Zendesk", "Linux"],
+    technologies: ["Active Directory", "Jamf Pro", "IBM MaaS360", "Zendesk", "Linux", "FOG Project", "Chrome Extensions"],
   },
 ];
 
@@ -78,6 +82,13 @@ export const PROJECTS = [
     description:
       "Production marketing site built for a real consulting business run by former CDSS licensing officials. Single-page, conversion-focused design with a serverless contact endpoint (Resend with mailto fallback), JSON-LD structured data, sitemap/robots generation, and a design-token CSS system.",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Resend", "SEO"],
+  },
+  {
+    title: "RT Triage Companion",
+    description:
+      "A Chrome extension that fixes unreliable \"awaiting my reply\" flags and surfaces unclaimed/stalled tickets in Request Tracker (RT), LSCG's helpdesk software. Classifies tickets into five categories by analyzing correspondence history and clustering mail-merge campaigns, entirely in-browser with no backend or ticket data transmission. Built as a Manifest V3 extension with a REST client supporting both RT API versions and a Node.js test suite.",
+    technologies: ["Chrome Extensions", "Manifest V3", "JavaScript", "REST APIs", "Node.js"],
+    github: "https://github.com/jonathan-herring/rt-triage-companion",
   },
   {
     title: "Lootfinder Web Application (CMPSC 148)",
