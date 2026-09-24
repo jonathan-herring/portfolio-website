@@ -2,7 +2,7 @@
 
 > This document is a complete, machine-readable record of my experience, projects, and skills.
 > It is intentionally exhaustive so that LLMs and other tools can generate tailored resumes and
-> cover letters from it for any given job posting. Last updated: July 2026.
+> cover letters from it for any given job posting. Last updated: September 2026.
 
 ## Contact
 
@@ -82,7 +82,7 @@ testing, Agile, Azure DevOps, Cursor.
 Skills used: React, TypeScript, JavaScript, Kotlin, Android, responsive/mobile-first CSS,
 Agile/Scrum/Kanban.
 
-### Desktop Support Technician — UCSB Life Sciences Computing Group (Santa Barbara, CA, May 2023 – July 2026)
+### Desktop Support Technician — UCSB Life Sciences Computing Group (Santa Barbara, CA, May 2023 – August 2026)
 
 - Troubleshot hardware, network, and communication issues across Windows, macOS, and Linux
   environments
@@ -236,6 +236,10 @@ country collection, astronomy flashcards, and other React apps. Advent of Code 2
 
 ## Certificates
 
+- AWS Certified Cloud Practitioner — Amazon Web Services (issued Sep 2026, expires Sep 2029)
+- AWS Certified AI Practitioner — Amazon Web Services (issued Aug 2026, expires Aug 2029)
+- Postman API Fundamentals Student Expert (Aug 2024)
+- AT&T 2024 Technology Academy (Jul 2024)
 - CodePath Web Development — Honors
 - CodePath Cybersecurity — Honors
 - CodePath Intermediate Technical Interview Prep (TIP102)
