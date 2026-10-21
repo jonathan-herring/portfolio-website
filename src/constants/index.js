@@ -30,7 +30,7 @@ export const EXPERIENCES = [
     technologies: ["Go", "Kotlin", "Jetpack Compose", "Docker", "Azure", "REST APIs", "Zendesk", "Active Directory", "Grafana", "Prometheus", "Kibana", "Agile", "Azure DevOps", "Cursor"],
   },
   {
-    year: "August – December 2024",
+    year: "August – November 2024",
     role: "Frontend/Mobile Developer Intern",
     company: "SkyIT Services",
     location: "Remote",
