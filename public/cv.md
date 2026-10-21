@@ -2,7 +2,7 @@
 
 > This document is a complete, machine-readable record of my experience, projects, and skills.
 > It is intentionally exhaustive so that LLMs and other tools can generate tailored resumes and
-> cover letters from it for any given job posting. Last updated: September 2026.
+> cover letters from it for any given job posting. Last updated: October 2026.
 
 ## Contact
 
@@ -66,7 +66,7 @@ Skills used: Go, Kotlin, Jetpack Compose, REST APIs, Docker, Microsoft Azure (CI
 2FA/MFA & IAM, audit logging, Zendesk, Active Directory, Grafana, Prometheus, Kibana, unit/integration
 testing, Agile, Azure DevOps, Cursor.
 
-### Frontend/Mobile Developer Intern — SkyIT Services (Remote, August – December 2024)
+### Frontend/Mobile Developer Intern — SkyIT Services (Remote, August – November 2024)
 
 - Built reusable React components for fleet management software, improving code scalability and
   maintainability
